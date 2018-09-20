@@ -1,0 +1,211 @@
+# depslib dependency file v1.0
+1536831088 source:c:\users\ujo4851503\documents\vela-clara-software\hardware\controller.cpp
+	"controller.h"
+	<iostream>
+	<sstream>
+
+1536831088 c:\users\ujo4851503\documents\vela-clara-software\hardware\controller.h
+	"structs.h"
+	"baseObject.h"
+	<map>
+	<boost/python.hpp>
+	<boost/python/suite/indexing/vector_indexing_suite.hpp>
+	<boost/python/suite/indexing/map_indexing_suite.hpp>
+
+1536572612 c:\users\ujo4851503\documents\vela-clara-software\structs\structs.h
+	<string>
+	"configDefinitions.h"
+	<string>
+	<vector>
+	<map>
+	<cadef.h>
+	<boost/preprocessor.hpp>
+
+1536572612 c:\users\ujo4851503\documents\vela-clara-software\utilities\configdefinitions.h
+	<string>
+	<vector>
+	<map>
+	<chrono>
+	<cadef.h>
+	<boost/python/def.hpp>
+
+1536572612 c:\users\ujo4851503\documents\vela-clara-software\utilities\baseobject.h
+	<string>
+	<vector>
+	<sstream>
+	<cmath>
+	<algorithm>
+	<iostream>
+	<time.h>
+	<deque>
+	<boost/python.hpp>
+	<boost/python/detail/wrap_python.hpp>
+	<boost/python.hpp>
+	<boost/python/def.hpp>
+	<boost/python/slice.hpp>
+	<boost/python/args.hpp>
+	<boost/python/class.hpp>
+	<boost/python/suite/indexing/vector_indexing_suite.hpp>
+	<boost/python/suite/indexing/map_indexing_suite.hpp>
+	<boost/python/return_value_policy.hpp>
+	<boost/python/overloads.hpp>
+	<boost/python/stl_iterator.hpp>
+	<boost/circular_buffer.hpp>
+	<boost/python/numpy.hpp>
+
+1536572601 source:c:\users\ujo4851503\documents\vela-clara-software\hardware\interface.cpp
+	"interface.h"
+	<iostream>
+	<sstream>
+	<chrono>
+
+1536572601 c:\users\ujo4851503\documents\vela-clara-software\hardware\interface.h
+	<cadef.h>
+	<iostream>
+	<map>
+	<chrono>
+	<thread>
+	"baseObject.h"
+	"structs.h"
+
+1536572601 source:c:\users\ujo4851503\documents\vela-clara-software\hardware\shutter\shuttercontroller.cpp
+	"shutterController.h"
+	<iostream>
+
+1536572601 c:\users\ujo4851503\documents\vela-clara-software\hardware\shutter\shuttercontroller.h
+	"shutterStructs.h"
+	"shutterInterface.h"
+	"controller.h"
+	"structs.h"
+	<string>
+	<vector>
+	<map>
+
+1536572612 c:\users\ujo4851503\documents\vela-clara-software\structs\shutterstructs.h
+	"structs.h"
+	<string>
+	<map>
+	<cadef.h>
+
+1536572601 c:\users\ujo4851503\documents\vela-clara-software\hardware\shutter\shutterinterface.h
+	"interface.h"
+	"shutterStructs.h"
+	"shutterConfigReader.h"
+	<vector>
+	<string>
+
+1536572612 c:\users\ujo4851503\documents\vela-clara-software\utilities\shutter\shutterconfigreader.h
+	<string>
+	<vector>
+	<map>
+	"configReader.h"
+	"shutterStructs.h"
+
+1536572612 c:\users\ujo4851503\documents\vela-clara-software\utilities\configreader.h
+	"configDefinitions.h"
+	"baseObject.h"
+	<string>
+	<sstream>
+	<vector>
+	<cadef.h>
+
+1536572601 source:c:\users\ujo4851503\documents\vela-clara-software\hardware\shutter\shutterinterface.cpp
+	"shutterInterface.h"
+	"configDefinitions.h"
+	<iostream>
+	<sstream>
+	<chrono>
+	<thread>
+
+1536572600 source:c:\users\ujo4851503\documents\vela-clara-software\hardware\vcbase.cpp
+	"VCbase.h"
+	"configDefinitions.h"
+
+1536572600 c:\users\ujo4851503\documents\vela-clara-software\hardware\vcbase.h
+	"structs.h"
+	<iostream>
+	<string>
+	<map>
+	<utility>
+
+1536572612 source:c:\users\ujo4851503\documents\vela-clara-software\utilities\baseobject.cpp
+	"baseObject.h"
+	"configDefinitions.h"
+	<time.h>
+
+1536572612 source:c:\users\ujo4851503\documents\vela-clara-software\utilities\configreader.cpp
+	"configReader.h"
+	<iostream>
+	<time.h>
+	<algorithm>
+	<fstream>
+	"configDefinitions.h"
+	"structs.h"
+
+1536572612 source:c:\users\ujo4851503\documents\vela-clara-software\utilities\shutter\shutterconfigreader.cpp
+	"shutterConfigReader.h"
+	"shutterStructs.h"
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<time.h>
+	<algorithm>
+	<ctype.h>
+
+1536572611 source:c:\users\ujo4851503\documents\vela-clara-software\python modules\shutter\src\vcshutter.cpp
+	"VCshutter.h"
+	<iostream>
+
+1537365319 c:\users\ujo4851503\documents\vela-clara-software\python modules\shutter\include\vcshutter.h
+	<string>
+	"shutterController.h"
+	"expose_shutter.h"
+	"VCbase.h"
+
+1537430372 c:\users\ujo4851503\documents\vela-clara-software\hardware\shutter\expose_shutter.h
+	"VCheader.h"
+	"shutterStructs.h"
+
+1536572600 c:\users\ujo4851503\documents\vela-clara-software\hardware\vcheader.h
+	"structs.h"
+	"VCbase.h"
+	"baseObject.h"
+	"controller.h"
+	"interface.h"
+	"structs.h"
+	"cameraControllerBase.h"
+	<boost/config/auto_link.hpp>
+	<string>
+	<vector>
+	<boost/python.hpp>
+	<boost/python/suite/indexing/vector_indexing_suite.hpp>
+	<boost/python/detail/wrap_python.hpp>
+	<boost/python/suite/indexing/map_indexing_suite.hpp>
+	<boost/python/return_value_policy.hpp>
+	<boost/python/docstring_options.hpp>
+	<boost/python/operators.hpp>
+	<boost/python/class.hpp>
+	<boost/python/module.hpp>
+	<boost/python/def.hpp>
+	<boost/python/scope.hpp>
+	<boost/python/manage_new_object.hpp>
+
+1536572601 c:\users\ujo4851503\documents\vela-clara-software\hardware\camera\cameracontrollerbase.h
+	"cameraBase.h"
+	"controller.h"
+	<vector>
+	<deque>
+
+1536572600 c:\users\ujo4851503\documents\vela-clara-software\hardware\camera\camerabase.h
+	"configDefinitions.h"
+	"cameraStructs.h"
+	"structs.h"
+	"interface.h"
+	"claraCameraConfigReader.h"
+	"velaCameraConfigReader.h"
+	<string>
+	<vector>
+	<map>
+
